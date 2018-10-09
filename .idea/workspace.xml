@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40648a55-4024-4c91-bf48-a9f9677f99c1" name="Default Changelist" comment="Initial project structure built">
-      <change afterPath="$PROJECT_DIR$/samples/get-venues-for-artist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setlistfmpy/datatypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setlistfmpy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/setlistfmpy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setlistfmpy/setlistfmpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/setlistfmpy/setlistfmpy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    <list default="true" id="40648a55-4024-4c91-bf48-a9f9677f99c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,13 +24,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="25" />
           <entry key="py" value="6313" />
-          <entry key="txt" value="42" />
+          <entry key="txt" value="213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="PLAIN_TEXT" value="238" />
           <entry key="Python" value="6313" />
         </counts>
       </usages-collector>
@@ -43,7 +39,7 @@
         <counts>
           <entry key="cfg" value="1" />
           <entry key="env" value="2" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="log" value="5" />
           <entry key="py" value="27" />
           <entry key="txt" value="1" />
@@ -54,7 +50,7 @@
         <counts>
           <entry key=".env file" value="1" />
           <entry key="Log" value="4" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="27" />
           <entry key="YAML" value="1" />
         </counts>
@@ -66,16 +62,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/setlistfmpy/setlistfmpy.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
+                <state relative-caret-position="297">
                   <caret line="118" column="104" selection-start-line="118" selection-start-column="104" selection-end-line="118" selection-end-column="104" />
                   <folding>
                     <element signature="e#24#38#0" expanded="true" />
                     <marker date="1539099807288" expanded="true" signature="4611:4614" ph="..." />
                     <marker date="1539099807288" expanded="true" signature="4613:4614" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="708">
+                  <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -119,6 +124,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="MLDERES &lt;mlderes@hotmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -138,6 +148,7 @@
         <option value="$PROJECT_DIR$/setlistfmpy/__init__.py" />
         <option value="$PROJECT_DIR$/setlistfmpy/datatypes.py" />
         <option value="$PROJECT_DIR$/setlistfmpy/setlistfmpy.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -297,6 +308,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539026037491</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed the structured significantly and slapped together just the methods that I needed to get the data I needed.">
+      <created>1539100412279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539100412279</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -312,16 +331,16 @@
     <frame x="-7" y="-7" width="2766" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296146" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32696176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32696176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39839035" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.22616632" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.22535211" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -337,8 +356,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial project structure built" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial project structure built" />
+    <MESSAGE value="Changed the structured significantly and slapped together just the methods that I needed to get the data I needed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the structured significantly and slapped together just the methods that I needed to get the data I needed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -386,9 +407,6 @@
     <entry file="file://$PROJECT_DIR$/setlistfmpy/Artist.py" />
     <entry file="file://$PROJECT_DIR$/setlistfmpy/City.py" />
     <entry file="file://$PROJECT_DIR$/api-key.yml" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -406,6 +424,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -450,13 +471,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setlistfmpy/setlistfmpy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="297">
           <caret line="118" column="104" selection-start-line="118" selection-start-column="104" selection-end-line="118" selection-end-column="104" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
             <marker date="1539099807288" expanded="true" signature="4611:4614" ph="..." />
             <marker date="1539099807288" expanded="true" signature="4613:4614" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
         </state>
       </provider>
     </entry>
